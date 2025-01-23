@@ -1,0 +1,4 @@
+{"name": "fuji", "height":3.776, "width": 2.0, "state":"UNSPECIFIED"}
+{"name":"takao", "height":0.599, "width": 3.0, "state":"GOOD"}
+{"name":  "sky", "height":0.634, "width": 5.0, "state":"WARN"}
+{"name":"tokyo", "height":0.333, "width": 7.0, "state":"BURN"}

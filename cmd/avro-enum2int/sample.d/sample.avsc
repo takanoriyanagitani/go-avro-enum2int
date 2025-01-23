@@ -1,0 +1,19 @@
+{
+	"type":"record",
+	"name":"sample_record",
+	"fields":[
+		{"name":"name", "type":"string"},
+		{"name":"height", "type":"double"},
+		{"name":"width", "type":"double"},
+		{"name":"state", "type":{
+			"type":"enum",
+			"name":"State",
+			"symbols":[
+			  "UNSPECIFIED",
+			  "GOOD",
+			  "WARN",
+			  "BURN"
+			]
+		}}
+	]
+}
